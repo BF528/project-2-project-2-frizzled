@@ -1,0 +1,30 @@
+
+
+# load sratoolkit
+module load sratoolkit
+
+# load sample of interest from NCBI website
+wget "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR1727914/SRR1727914.1"
+
+# rename file to sample name
+mv SRR1727914.sra P0_1.sra
+
+# making qsub file to extract the short reads to FASTQ format
+nano run_extract.qsub
+
+# running qsub job
+qsub run_extract.qsub
+
+# matching information
+head P0_1_1.fastq 
+head P0_1_2.fastq 
+
+module load fastqc
+
+# making a directory for the fastqc results 
+mkdir fastqc_results
+cd fastqc_results
+
+# running fastqc on command line for both reads
+fastqc -o /projectnb/bf528/users/frizzled/project_2/Data Curator/fastqc_results P0_1_1.fastq P0_1_2.fastq
+
