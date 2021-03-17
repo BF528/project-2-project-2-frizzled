@@ -30,7 +30,6 @@ Programmer:
  
 Analyst:
   - BF528_Project2_Analyst_Frizzled.R generates the two histograms of the toal gene set and significant gene set, selected and sorted the significant genes
-  - Result_up_rerun.txt/Result_dw_rerun.txt shown the results of DAVID analysis for up-regulated gene set and down-regulated gene set
   
 Biologist:
   - BF528_Project2_Biologist.R generates line plots of FPKM values for representative genes for Sarcomere, Mitochondria, and Cell Cycle terms. This file also generates a clustered     heatmap of the top 1000 differentially expressed genes. 
