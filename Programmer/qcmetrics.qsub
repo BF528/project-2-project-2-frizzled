@@ -9,7 +9,7 @@ echo "Running job $JOB_ID"
 echo "Started: $(date +%F)"
 echo "Running in directory: $PWD"
 
-
+##Script to run Quality Control Metrics.
 ##Loading modules.
 module load python3
 module load R
