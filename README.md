@@ -21,7 +21,13 @@ Data Curator:
   - run_extract.qsub used to run the qsub job on SCC to extract fastq format
 
 Programmer:
-
+  - run_tophat.qsub is a shell script (Bash) that aligns the RNA-Seq reads to the mm9 mouse genome reference.
+  - run_cufflinks.qsub is a shell script (Bash) that quantifies gene expression.
+  - run_cuffdiff.qsub is a shell script (Bash) that calculates differential gene expression.
+  - qcmetrics.qsub is a shell script (Bash) that computes read-mapping statistics and other QC plots.
+  - histogram.R is an R script that plots the histogram of the FPKM values in the data.
+  - histogram.html is a knit document that illustrates the functionality of histogram.R script. 
+ 
 Analyst:
   - BF528_Project2_Analyst_Frizzled.R generates the two histograms of the toal gene set and significant gene set, selected and sorted the significant genes
   - Result_up_rerun.txt/Result_dw_rerun.txt shown the results of DAVID analysis for up-regulated gene set and down-regulated gene set
