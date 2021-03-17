@@ -8,7 +8,7 @@ O’Meara et al. Transcriptional Reversion of Cardiac Myocyte Fate During Mammal
 # Contributors
 
   - Camilla Belamarich - Data Curator @cmbelama
-  - Yashrajsinh Jadeja - Programmer yj@bu.edu
+  - Yashrajsinh Jadeja - Programmer @Yashrajsinh-Jadeja
   - Zhuorui Sun - Analyst @sunzhuorui
   - Janvee Patel - Biologist @Janvee-Patel
 
