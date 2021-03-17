@@ -4,10 +4,10 @@ This repository contains all scripts and files used to accomplish the required g
 
 # Contributors
 
-Camilla Belamarich - Data Curator @cmbelama
-Yashrajsinh Jadeja - Programmer yj@bu.edu
-Zhuorui Sun - Analyst @sunzhuorui
-Janvee Patel - Biologist @Janvee-Patel
+  - Camilla Belamarich - Data Curator @cmbelama
+  - Yashrajsinh Jadeja - Programmer yj@bu.edu
+  - Zhuorui Sun - Analyst @sunzhuorui
+  - Janvee Patel - Biologist @Janvee-Patel
 
 # Repository Contents
 
