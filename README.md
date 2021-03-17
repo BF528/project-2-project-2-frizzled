@@ -1,11 +1,28 @@
 # Project Description
 
-A brief description of what this repository is for and what it contains
+This repository contains all scripts and files used to accomplish the required goals of Project 2 - Transcriptional Profile of Mammalian Cardiac Regeneration with mRNA-Seq
 
 # Contributors
 
-List contributor names and github user names, or email addresses if desired
+Camilla Belamarich - Data Curator @cmbelama
+Yashrajsinh Jadeja - Programmer yj@bu.edu
+Zhuorui Sun - Analyst @sunzhuorui
+Janvee Patel - Biologist @Janvee-Patel
 
 # Repository Contents
 
-Provide a brief description of each script/code file in this repo, what it does, and how to execute it
+Each folder indicated the role of the project. The folder contains the script and files used and produced during the process of this analysis.
+
+Data Curator:
+  - data_curator_script Linux script used to download samples, extract fastq format, and run fastqc
+  - run_extract.qsub used to run the qsub job on SCC to extract fastq format
+
+Programmer:
+
+Analyst:
+
+Biologist:
+
+Final Write-Up:
+  - PDF document of our final Write-up for Project 2
+  - This includes our methods, results, analysis, and conclusions we were able to make based on the data
